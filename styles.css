@@ -287,7 +287,6 @@ button {
 .lang {
   display: flex;
   flex-direction: column;
-
 }
 
 .lang li {
@@ -976,7 +975,6 @@ textarea {
     border-top: 1px solid #ebecf0;
   }
 
-
   .model-tags {
     display: flex;
     justify-content: center;
@@ -1000,7 +998,6 @@ textarea {
     color: #000;
     font-size: 1.5rem;
   }
-
 }
 
 /* Styles for 900px screen */
