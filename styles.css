@@ -200,10 +200,8 @@ main {
 }
 
 .card-tags li {
-  float: left;
   align-items: left;
   margin-right: 0.5rem;
-  background-color: #ebebff;
   color: var(--clr-purple);
   padding: 4px 12px;
   border-radius: 8px;
@@ -211,6 +209,21 @@ main {
   line-height: 16px;
   font-weight: 500;
   letter-spacing: 0.03rem;
+}
+
+.first {
+  float: left;
+  background-color: #ebebff;
+}
+
+.second {
+  float: left;
+  background-color: #ebebff;
+}
+
+.thired {
+  background-color: #ebebff;
+  display: inline;
 }
 
 button {
