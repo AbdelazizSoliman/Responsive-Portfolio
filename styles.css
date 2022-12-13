@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --clr-purple: #6070ff;
@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
   margin: 0;
@@ -194,14 +194,14 @@ main {
 
 .card-tags {
   list-style: none;
-  display: flex;
+  float: inherit;
   padding: 0;
   margin: 1rem 0;
 }
 
 .card-tags li {
-  display: flex;
-  align-items: center;
+  float: left;
+  align-items: left;
   margin-right: 0.5rem;
   background-color: #ebebff;
   color: var(--clr-purple);
@@ -215,7 +215,8 @@ main {
 
 button {
   display: flex;
-  align-items: center;
+  float: inherit;
+  align-items: left;
   box-sizing: border-box;
   padding: 12px;
   border: 1px solid var(--clr-purple);
@@ -375,7 +376,7 @@ textarea {
 }
 
 ::placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--clr-gray-100);
   font-size: 15px;
   padding-left: 1rem;
