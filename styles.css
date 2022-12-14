@@ -147,8 +147,8 @@ main {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
+  display: flex; 
+   flex-direction: column;
   box-sizing: border-box;
   background: var(--clr-white);
   border: 1px solid #dfe1e6;
@@ -232,7 +232,7 @@ button {
   color: var(--clr-white);
 }
 
-/* About me style */
+/* About style */
 .about {
   box-sizing: border-box;
   background: var(--clr-white);
@@ -300,13 +300,6 @@ button {
   border-radius: 8px;
 }
 
-/* popUp */
-.popButtoms img {
-  padding-left: 10px;
-}
-
-/* end */
-
 li .lang-child img {
   margin-right: 10px;
 }
@@ -328,10 +321,10 @@ li .lang-child img {
   background-color: var(--clr-purple);
   box-sizing: border-box;
   border: 1px solid var(--clr-purple);
-  border-top-left-radius: 5rem;
   padding: 6rem 1.8rem;
   height: auto;
   box-shadow: -5px -15px 10px -10px rgba(83, 81, 81, 0.15);
+  border-top-left-radius: 5rem;
 }
 
 .form-input {
@@ -367,11 +360,12 @@ li .lang-child img {
 textarea {
   background-color: var(--clr-white);
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding: 0.8rem 0;
+  padding: 1rem 0;
   margin: 10px 0;
   width: 100%;
-  color: var(--clr-gray-100);
+  color: var(--clr-black-100);
+  border-radius: 0.5rem;
+  padding-left: 1rem;
 }
 
 ::placeholder {
@@ -384,6 +378,7 @@ textarea {
 .btn {
   background: var(--clr-white);
   display: flex;
+  /* margin: auto; */
 }
 
 .btn:hover {
@@ -399,15 +394,6 @@ textarea {
   font-weight: bold;
 }
 
-/* PopUp Window */
-.feature {
-  background-color: #fff;
-  width: 60%;
-  height: 95%;
-  padding: 0 2rem;
-  overflow-y: scroll;
-  border-radius: 16px;
-}
 
 .overlay-content {
   width: 100%;
@@ -420,44 +406,6 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.disable {
-  display: none;
-}
-
-.feature p {
-  font-size: 16px;
-  display: flex;
-}
-
-.popBottomContent {
-  display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
-}
-
-.popButtoms {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding-top: 1.5rem;
-  border-top: 1px solid #ebecf0;
-  margin-bottom: 0;
-  width: -webkit-fill-available;
-}
-
-.feature .popButtoms .secondchild {
-  float: right;
-}
-
-.model-tags {
-  display: flex;
-  flex-flow: row wrap;
-  height: max-content;
-  column-gap: 10px;
-  row-gap: 10px;
 }
 
 .model-tags li {
@@ -479,33 +427,6 @@ textarea {
   border: none;
   color: #000;
   font-size: 1.5rem;
-}
-
-.feature .featureList li {
-  font-size: 15px;
-  margin: 1rem inherit;
-}
-
-.feature .featureList .no-count {
-  color: #344563;
-}
-
-.model-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 2rem;
-  height: 30px;
-}
-
-.model-top h3 {
-  font-size: 30px;
-  line-height: 52px;
-  color: #091e42;
-}
-
-.popButtoms a:hover {
-  color: var(--clr-para);
 }
 
 /* Style for 320px screens  */
@@ -870,6 +791,7 @@ textarea {
 
   .form-child {
     margin: 0 8rem;
+    border-top-left-radius: 1rem;
   }
 
   .form-group h2 {
@@ -926,16 +848,6 @@ textarea {
 
   .nav-link a {
     color: var(--clr-para);
-  }
-
-  /* PopUp */
-  .feature {
-    background-color: #fff;
-    width: 60%;
-    height: 95%;
-    padding: 0 2rem;
-    overflow-y: scroll;
-    border-radius: 16px;
   }
 
   .overlay-content {
