@@ -147,8 +147,8 @@ main {
 }
 
 .card {
-  display: flex; 
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   background: var(--clr-white);
   border: 1px solid #dfe1e6;
@@ -378,6 +378,7 @@ textarea {
 .btn {
   background: var(--clr-white);
   display: flex;
+
   /* margin: auto; */
 }
 
@@ -393,7 +394,6 @@ textarea {
   color: rgb(255, 0, 0);
   font-weight: bold;
 }
-
 
 .overlay-content {
   width: 100%;
