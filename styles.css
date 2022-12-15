@@ -769,10 +769,6 @@ textarea {
   .nav-link a {
     color: var(--clr-para);
   }
-
-  .disable {
-    display: none;
-  }
 }
 
 /* Styles for 900px screen */
