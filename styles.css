@@ -15,7 +15,6 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
-  margin: 0;
 }
 
 .img-i {
@@ -395,38 +394,10 @@ textarea {
   font-weight: bold;
 }
 
-.overlay-content {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(193, 199, 208, 0.2);
-  backdrop-filter: blur(8px);
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .model-tags li {
   list-style: none;
   flex-flow: row wrap;
   height: 16px;
-}
-
-.model_img {
-  width: 100%;
-  max-height: 650px;
-  display: flex;
-  justify-content: center;
-  background-size: cover;
-  background-position: 100%;
-}
-
-.close-overlay {
-  border: none;
-  color: #000;
-  font-size: 1.5rem;
 }
 
 /* Style for 320px screens  */
@@ -465,35 +436,6 @@ textarea {
 
   .skills .p {
     margin: 0 1.8rem;
-  }
-
-  /* PopUp window */
-  .model-top h3 {
-    line-height: 25px;
-    font-size: 18px;
-  }
-
-  .model-tags {
-    display: flex;
-    row-gap: 10px;
-  }
-
-  /* PopUp */
-  .popButtoms a {
-    font-size: 13px;
-  }
-
-  .feature {
-    padding: 0 1rem;
-  }
-
-  .feature p {
-    font-size: 12px;
-  }
-
-  .model-tags li {
-    font-size: 11px;
-    margin-right: 0;
   }
 }
 
@@ -640,17 +582,6 @@ textarea {
   .nav-link a {
     color: var(--clr-para);
   }
-
-  /* PopUp window */
-  .model-top h3 {
-    line-height: 25px;
-    font-size: 18px;
-  }
-
-  .model-tags {
-    display: flex;
-    row-gap: 10px;
-  }
 }
 
 /* Styles for 768px screens */
@@ -737,13 +668,6 @@ textarea {
     margin: 3rem;
   }
 
-  /* PopUp */
-  .popButtoms img {
-    padding-left: 10px;
-  }
-
-  /* end */
-
   .card1 img:nth-of-type(1) {
     order: 1;
   }
@@ -811,10 +735,6 @@ textarea {
     transition-duration: 350ms;
   }
 
-  .model-tags li {
-    list-style: none;
-  }
-
   .lang li:hover {
     transform: scale(1.3);
   }
@@ -850,65 +770,8 @@ textarea {
     color: var(--clr-para);
   }
 
-  .overlay-content {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(193, 199, 208, 0.2);
-    backdrop-filter: blur(8px);
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .disable {
     display: none;
-  }
-
-  .feature p {
-    font-size: 16px;
-    margin-bottom: 4rem;
-    display: flex;
-  }
-
-  .popBottomContent {
-    display: grid;
-    grid-template-columns: 1fr 280px;
-    padding-top: 1rem;
-  }
-
-  .popButtoms {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    padding-top: 1rem;
-    border-top: 1px solid #ebecf0;
-  }
-
-  .model-tags {
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
-    row-gap: 10px;
-    flex-flow: row wrap;
-    height: max-content;
-  }
-
-  .model_img {
-    width: 100%;
-    max-height: 650px;
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-position: 100%;
-  }
-
-  .close-overlay {
-    border: none;
-    color: #000;
-    font-size: 1.5rem;
   }
 }
 
