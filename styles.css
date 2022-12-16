@@ -15,6 +15,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
+  margin: 0;
 }
 
 .img-i {
@@ -114,12 +115,14 @@ a {
 
 .who-am-i {
   margin: 9rem 2rem;
+  /* padding: 10rem; */
 }
 
 .dev h1 {
   font-weight: 700;
   font-size: 2.5rem;
   color: #172b4d;
+  padding: 10rem 10rem 0 0 ;
 }
 
 .dev p {
@@ -127,6 +130,8 @@ a {
   font-weight: 300;
   color: var(--clr-para);
   margin: 1.5rem 0;
+  max-width: 900px;
+  /* padding: 10rem; */
 }
 
 .social-icons {
@@ -231,7 +236,7 @@ button {
   color: var(--clr-white);
 }
 
-/* About style */
+/* About me style */
 .about {
   box-sizing: border-box;
   background: var(--clr-white);
@@ -299,6 +304,13 @@ button {
   border-radius: 8px;
 }
 
+/* popUp */
+.popButtoms img {
+  padding-left: 10px;
+}
+
+/* end */
+
 li .lang-child img {
   margin-right: 10px;
 }
@@ -320,10 +332,10 @@ li .lang-child img {
   background-color: var(--clr-purple);
   box-sizing: border-box;
   border: 1px solid var(--clr-purple);
+  border-top-left-radius: 5rem;
   padding: 6rem 1.8rem;
   height: auto;
   box-shadow: -5px -15px 10px -10px rgba(83, 81, 81, 0.15);
-  border-top-left-radius: 5rem;
 }
 
 .form-input {
@@ -359,12 +371,11 @@ li .lang-child img {
 textarea {
   background-color: var(--clr-white);
   border: 1px solid #cfd8dc;
-  padding: 1rem 0;
+  border-radius: 8px;
+  padding: 0.8rem 0;
   margin: 10px 0;
   width: 100%;
-  color: var(--clr-black-100);
-  border-radius: 0.5rem;
-  padding-left: 1rem;
+  color: var(--clr-gray-100);
 }
 
 ::placeholder {
@@ -377,8 +388,6 @@ textarea {
 .btn {
   background: var(--clr-white);
   display: flex;
-
-  /* margin: auto; */
 }
 
 .btn:hover {
@@ -394,11 +403,6 @@ textarea {
   font-weight: bold;
 }
 
-.model-tags li {
-  list-style: none;
-  flex-flow: row wrap;
-  height: 16px;
-}
 
 /* Style for 320px screens  */
 
@@ -412,7 +416,7 @@ textarea {
 
   .dev {
     background-image: url(img/header-shapesmobile@2x.svg);
-    background-position: 0% auto;
+    background-position: 0% ;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -445,13 +449,13 @@ textarea {
   .form-form {
     background-image: url(img/contact-form-shapes-mobile.svg);
     background-repeat: no-repeat;
-    background-position: 0% auto;
+    background-position: 0%;
     background-size: cover;
   }
 
   .dev {
     background-image: url(img/header-shapesmobile@2x.svg);
-    background-position: 0% auto;
+    background-position: 0% ;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -490,13 +494,13 @@ textarea {
   .form-form {
     background-image: url(img/contact-form-shapes-mobile.svg);
     background-repeat: no-repeat;
-    background-position: auto;
+   
     background-size: 100% auto;
   }
 
   .dev {
     background-image: url(img/header-shapesmobile@2x.svg);
-    background-position: auto;
+  
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
@@ -601,6 +605,10 @@ textarea {
     background-repeat: no-repeat;
     width: 100%;
   }
+  
+  .who-am-i {
+    margin: 8rem;
+  }
 
   .about {
     display: grid;
@@ -637,7 +645,7 @@ textarea {
     font-weight: 500;
   }
 
-  .dev-child {
+  .who-am-i {
     margin: 8rem;
   }
 
@@ -715,7 +723,6 @@ textarea {
 
   .form-child {
     margin: 0 8rem;
-    border-top-left-radius: 1rem;
   }
 
   .form-group h2 {
@@ -782,6 +789,12 @@ textarea {
     width: 100%;
   }
 
+  .who-am-i {
+    margin-left: 14rem;
+    margin-right: 14rem;
+    padding: 7rem 0;
+  }
+
   .about {
     display: grid;
     grid-template-columns: 500px 1fr;
@@ -846,7 +859,7 @@ textarea {
     margin-left: 3rem;
   }
 
-  .dev-child {
+  .who-am-i {
     margin-left: 14rem;
     margin-right: 14rem;
     padding: 7rem 0;
