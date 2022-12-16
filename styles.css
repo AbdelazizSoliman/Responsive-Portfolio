@@ -22,9 +22,9 @@ body {
   width: 100%;
 }
 
- .img-i:hover {
+.img-i:hover {
   transform: scale(1.2);
- }
+}
 
 a {
   text-decoration: none;
@@ -624,17 +624,15 @@ textarea {
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(359deg);
     }
   }
-  
 
   .logo {
     animation: rotation 2s 1 linear;
-
   }
-
 
   .logo a {
     margin-left: 3.5rem;
