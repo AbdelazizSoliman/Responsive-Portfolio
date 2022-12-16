@@ -22,6 +22,10 @@ body {
   width: 100%;
 }
 
+ .img-i:hover {
+  transform: scale(1.2);
+ }
+
 a {
   text-decoration: none;
 }
@@ -616,10 +620,21 @@ textarea {
     margin-bottom: 0;
   }
 
-  .logo {
-    transition-delay: 150ms;
-    transition-duration: 350ms;
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
   }
+  
+
+  .logo {
+    animation: rotation 2s 1 linear;
+
+  }
+
 
   .logo a {
     margin-left: 3.5rem;
@@ -652,6 +667,10 @@ textarea {
     height: 100%;
     width: 100%;
   }
+
+  /* .card img :hover {
+    transform: scale(1.2);
+  } */
 
   .social-icons svg:hover {
     transition: transform 250ms;
@@ -922,6 +941,12 @@ textarea {
 
   .form-child {
     margin: 0 20rem;
+  }
+
+  .form-child p:hover {
+    transform: translate(42px, 0);
+    transition-delay: 150ms;
+    transition-duration: 350ms;
   }
 
   .card-tags li {
