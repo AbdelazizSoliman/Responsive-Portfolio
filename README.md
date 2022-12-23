@@ -67,7 +67,7 @@
 
 - **HTML**
 - **CSS3**
-- **Jquery**
+- **Media query**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
