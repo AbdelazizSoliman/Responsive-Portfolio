@@ -73,6 +73,20 @@ a {
   background-color: var(--clr-purple);
 }
 
+.menu-icon.active .bar1 {
+  transform: translateY(8px) rotate(45deg);
+  background: #fff;
+}
+
+.menu-icon.active .bar3 {
+  transform: translateY(-8px) rotate(-45deg);
+  background: #fff;
+}
+
+.menu-icon.active .bar2 {
+  opacity: 3;
+}
+
 .nav-items {
   display: block;
   position: absolute;
@@ -84,7 +98,7 @@ a {
   font-size: 32px;
   text-align: left;
   font-weight: 600;
-  opacity: 0.9;
+  opacity: 0.95;
   padding-top: 3.5rem;
   list-style: none;
 }
@@ -113,13 +127,14 @@ a {
 }
 
 .who-am-i {
-  margin: 9rem 2rem;
+  margin: 15rem 5rem;
 }
 
 .dev h1 {
   font-weight: 700;
   font-size: 2.5rem;
   color: #172b4d;
+  padding-top: 5rem;
 }
 
 .dev p {
@@ -328,13 +343,6 @@ li .lang-child img {
 
 .form-input {
   position: relative;
-}
-
-.form-bg-img {
-  position: absolute;
-  width: 60%;
-  height: auto;
-  left: 160px;
 }
 
 .form-group h2 {
@@ -572,11 +580,16 @@ textarea {
     height: 0;
     padding-top: 0;
     background: none;
-    font-weight: 500;
+    font-weight: 600;
     opacity: 1;
     align-items: center;
     justify-content: end;
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .nav-items.active {
+    left: 0;
+    width: 100%;
   }
 
   .nav-link a {
@@ -748,7 +761,6 @@ textarea {
     padding: 1.1rem 0;
   }
 
-  /* PopUp */
   .nav-items {
     display: flex;
     position: static;
@@ -934,5 +946,9 @@ textarea {
   .btn {
     font-size: 17px;
     padding: 14px;
+  }
+
+  .dev p {
+    max-width: 90rem;
   }
 }
