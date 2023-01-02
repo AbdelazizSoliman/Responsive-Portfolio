@@ -127,14 +127,16 @@ a {
 }
 
 .who-am-i {
-  margin: 15rem 5rem;
+  margin: 9rem 2rem;
+
+  /* padding: 10rem; */
 }
 
 .dev h1 {
   font-weight: 700;
   font-size: 2.5rem;
   color: #172b4d;
-  padding-top: 5rem;
+  padding: 10rem 10rem 0 0;
 }
 
 .dev p {
